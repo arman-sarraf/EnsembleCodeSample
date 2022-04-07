@@ -21,7 +21,8 @@ Personal Project Code Sample (Staff & Animals Registration System):
 
 How to run the web-application:
 
-1. Execute VETMEDICINARYDB.sql database script (ideally with workbench).
+1. Clone this repo
+1. Execute VETMEDICINARYDB.sql database script which can be found under 'App\backend' (ideally with workbench).
 2. Open/import the App folder with an IDE (ideally with IntelliJ)
 2. In your IDE go to '\App\Backend\src\main\java\com.example.project\model' and change database credentials based on your device for 'JDBCConnect' & 'UserDB' classes.
 3. In your IDE under the previous location (under com.example.project package) there is a runnable class named 'ProjectApplication'. Please run this class (server should start & continue running).
@@ -32,5 +33,7 @@ How to run the web-application:
 * Care Attendant: User: 5 Pass: 7788
 * Health Technician User: 7 Pass: 1250
 * Student User: 9 Password: 3020
+
+*Note: Please make sure that 'mysql-connector-java-8.0.27' is added to the project path in your IDE and is recognized as a library.*
 
 Technology: Java, Spring boot, MySQL, React-axios, HTML/CSS
