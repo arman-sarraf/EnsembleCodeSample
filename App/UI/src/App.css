@@ -1,0 +1,272 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blog-main-clear::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+/* log-in */
+.login{
+   overflow-y: hidden;
+   overflow-x: hidden;
+   /* max-width: 1600px; */
+   direction: ltr;
+   height: 100%;
+}
+.login-btn{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.login-input-container {
+  margin: 10px 0;
+}
+.header-container{
+  background-color: #ffcd00;
+  height: 10%;
+  border-bottom: 10px solid;
+  border-color: red;
+  width: 100%;
+}
+.footer-container{
+  color: #3d3d3d;
+  height: 100px;
+  border-top: 5px solid;
+  border-color: red;
+  width: 100%;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding:10px 50px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  height: 10%;
+}
+.body-container{
+  margin: 10px 0;
+  background-image: url("image/slider_4.png");
+  background-size: cover;
+  height: 68%;
+}
+
+.form-element{
+  margin:50px 0;
+}
+.login-signup-inner{
+  padding: 10px 0;
+  background: none;
+  opacity: 1;
+  box-shadow: none;
+}
+#form-title{
+  margin-bottom: 30px;
+  font-size: 35px;
+  text-align: center;
+}
+.header-logo-container{
+  width: 100%;
+  height:50%;
+  text-align: center;
+  padding:10px 0;
+}
+.header-date-container{
+  width: 100%;
+  height:50%;
+  padding:10px 0;
+  text-align: center;
+  font-family: "Proxima Nova",Arial,Helvetica,sans-serif;
+  font-size: 15px;
+}
+.header-logo-inner{
+  background-image: url("image/logo.png"); 
+  background-size: cover; 
+  /* background-color: blue; */
+  height: 100%;
+  width:50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* search */
+.main-search{
+  /* max-width: 1600px; */
+  direction: ltr;
+  height: 100%;
+}
+.table{
+  margin:5px;
+}
+
+.search-footer-container{
+  color: #3d3d3d;
+  height: 100px;
+  border-top: 5px solid;
+  border-color: red;
+  width: 100%;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding:5px 50px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  height:5%;
+}
+
+.search-header-container{
+  background-color: #ffcd00;
+  height: 3%;
+  border-bottom: 10px solid;
+  border-color: red;
+  width: 100%;
+}
+.search-header-date-container{
+  width: 100%;
+  height:50%;
+  padding:10px 0;
+  text-align: center;
+  font-family: "Proxima Nova",Arial,Helvetica,sans-serif;
+  font-size: 15px;
+}
+.search-pagination{
+  margin-top: 30px;
+  margin-right: 10px;
+}
+/* user- profile */
+.user-profile{
+  height: 100%;
+}
+.profile-header-content {
+  padding: none;
+}
+a {
+  text-decoration: none;
+}
+.admin-access-point{
+  height: 100%;
+}
+
+.sign-out{
+  padding-left:20px;
+  padding-top:5px;
+  font-size: 20px;
+  color:black;
+}
+/* administrator */
+.admini-access{
+height:100%;
+overflow-y: hidden;
+overflow-x: hidden;
+
+}
+
+.teching-technicians-access{
+  height:100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.teching-technicians-container{
+  height:100%;
+}
+/* for desktop */
+@media only screen and (min-width: 800px) {
+
+  .search-container{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding:20px 0;
+    height:83.5%;
+  }
+  /* .admin-access-container{
+    height:85.5%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  } */
+  .animal-care-access-point{
+    height:85.5%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .header-logo-container{
+    float: left;
+    width: 50%;
+    height:100%;
+    text-align: left;
+    padding:15px 50px;
+
+  }
+  .header-logo-inner{
+    width:50%;
+    margin:15px 0;
+    height:100%;
+  }
+  .header-date-container{
+    float: right;
+    width: 50%;
+    height:100%;
+    text-align: right;
+    padding:30px 100px;
+  }
+
+  .search-header-date-container{
+    float: right;
+    width: 50%;
+    height:100%;
+    text-align: right;
+    padding:10px 100px;
+  }
+
+  .footer-container {
+    text-align: right;
+  }
+
+  .search-footer-container{
+    text-align: right;
+  } 
+  .login-signup-inner{
+    padding: 50px 0;
+    background: none;
+    opacity: 1;
+    box-shadow: none;
+  }
+  
+}
