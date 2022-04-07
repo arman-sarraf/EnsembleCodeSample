@@ -6,7 +6,7 @@ Project OMDB web app:
 How to run the web-application:
 
 1. Clone this repo
-2. Open a CLI under path '\my-app' & run 'npm install' command and after that, run 'npm start' command. The application should start running.
+2. Open a CLI under path '\OMDB_Search' & run 'npm install' command and after that, run 'npm start' command. The application should start running.
 
 Details:
 * Search results comes from OMDB API
