@@ -17,7 +17,7 @@ Technology: React-axios, HTML/CSS
 
 --------------------------------------------------------------------------------
 
-Personal Project Code Sample (Staff & Animals Registration System):
+Personal Project Code Sample (Staff & Animals Registration/Administration System):
 
 How to run the web-application:
 
